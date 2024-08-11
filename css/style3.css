@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*styling for header section*/
+.header{
+	min-height: 14vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(3,10,9,0.6),rgba(3,10,9,0.7)),url(../images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+/*add styling for navigation bar*/
+nav{
+	display: flex;
+    align-items: center;
+	padding: 12px 2px;
+	justify-content: space-between;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav a{
+	flex: 10;
+	text-align: right;
+	padding: ;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+div ul li{
+	display: inline-block;
+	padding-right: 20px;
+	margin: 15px ;
+
+}
+
+
+/*adding hover effect for navigation bar*/
+nav a:hover,
+nav a.active {
+  color:rgb(222 235 36);
+  transition: .10s;
+  background: ;
+}
+
+nav img{
+	width: 70px;
+	height: 70px;
+    padding-left: 50px;
+}
+
+.nav a::after{
+	content: "";
+	width: 0%;
+	height: 2px;
+	background: rgb(255, 0, 0);
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.nav a:hover::after{
+	width: 100%;
+}
+
+form {
+  display: flex;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+
+  height: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 18px 50px;
+  padding-top: 10px;
+  margin: 8px 0px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+/* to keep them side by side*/
+/*blog*/
+
+.p{
+	display: flex;
+	padding: 40px;
+}
+.p img{
+	flex:40%;
+	margin:50px;
+	padding: 40px;
+	border: 2px solid #000000;
+}
+
+.details{
+	flex: 60%;
+	padding: 40px 20px;
+}
+
+/*Footer styles*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family:sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-1 {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.col-1 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.col-1 p, .col-1 li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+/*Styles for social-links*/
+.social-links li  {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+/*Adding hover effect in social-links*/
+.social-links li :hover {
+  transform: scale(1.2);
+}
+ 
+/*styles for copyright*/
+.copyright {
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+#date{
+	text-align: right;
+	font-size: 13px;
+}

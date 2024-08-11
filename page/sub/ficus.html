@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ficus</title>
+	<meta name="author" content="Roman Dangol, Esa Shakya, Abishek Shrestha, Utsav Thapaliya">
+    <meta name="description" content="Website of Bonsai Plant">
+    <meta name="keyword" content="Bonsai Plant">
+	<link rel="stylesheet" href="../../css/style2.css">
+	<style>
+		/* product page */
+	.deco{
+		background-image: url("../../images/ban.jpg");
+		width:87%;
+		height:150px;
+		text-align: center;
+		padding: 80px;
+	}
+	/*changing the font size of paragraph tag*/
+	.deco p{
+		font-size: 70px;
+	}
+	</style>
+</head>
+<body>
+	<section class="header">
+		<!-- navigation bar -->
+		<nav>
+			<a href="index.html"><img src="../../images/logoo.png" ></a>
+			<div>
+		    <form>
+                <input type="text" placeholder="Search...">
+                <button type="submit">Go</button>
+            </form>
+            </div>
+		<div class="nav">
+		 	<ul>
+			    <li><a href="../../index.html">Home</a></li>
+		        <li><a class="active" href="../products.html">Products</a></li>
+		        <li><a href="../blog.html">Blog</a></li>
+		        <li><a href="../research.html">Research</a></li>
+		        <li><a href="../aboutus.html">About us</a></li>
+		    </ul>
+	    </div>
+		</nav>
+	</section>
+
+	<!--header section starts here-->
+	<div class="deco">
+		<h1>#ShopBonsai </h1>
+		<p> Stay home and shop happily!</p>
+	</div>
+	<!--header ends here-->
+
+	<!-- images-->
+	<div class="ficus" style="display: flex;padding:40px;">
+		<div class="image" style="flex:0%;margin:30px 0px;">
+			<img src="../../images/ficus1.jpg" width="500px" height="500px">
+		</div>
+
+		<!--details of the product-->
+		<div class="description" style="flex:40%;padding: 40px;padding-top: 100px;">
+			<h1 style="font-family: 'Comic Sans Ms';padding:;background-color:#;color: #;">Ficus Bonsai Plant</h1>
+			<p style="font-family: Comic Sans Ms;font-size: 20px; color: ;padding-top: ; padding-bottom: 30px; padding-left: 20px;"><del>$30.00</del><br>$25.00</p>
+
+			<div style="padding:  8px 15px; display: ; flex: 400%;">
+				<button style= "font-size: 30px;background-color:#90bf2a;color: white;border:none; font-size: 25px; padding: 4px;" onclick="cart()">BUY NOW</button>
+				<button style="font-size: 30px;background-color:#90bf2a;color: white;border:none; font-size: 25px; padding: 4px;padding: 4px; margin-left: 30px;" onclick="cart1()">ADD TO CART</button>
+			</div><br>
+
+			<h1 style="font-family: serif;	padding:20px 20px 20px 20px;">Product Description:</h1>
+			<p style="font family:Verdana;font-size: 30px;	padding:10px 20px 20px 20px;background-color: skyblue;">Ficus is an indoor plant that needs constant temperature.In summer,it can be kept outside if the temperature is above 15 degree celsius.it cannot be kept outside in winter season as it doesnt cope with winter well.This plant is one of the favourites of the people as it grows rapidly if it is kept in well condition.</p>
+		</div>
+		<!--end of details of the product-->
+
+	</div>	
+
+
+	 <footer>
+    <div class="container">
+        <div class="row">
+
+        	<!-- Column for About Us -->
+            <div class="col-1">
+                <h3>About Us</h3>
+                <p>Our shop sells fresh bonsai plants. Decorate your house with fresh and beautiful bonsai plants.</p>
+            </div>
+
+            <!-- Column for contact informnation -->
+            <div class="col-1">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: buybonsainepal@gmail.com</li>
+                    <li>Phone: 555-555-5555</li>
+                    <li>Address: 123 Dillibazar, Kathmandu </li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><img src="../../images/fb.png" style="height: 25px; border-radius: 10%;"></li>
+                    <li><img src="../../images/insta.png" style="height: 25px; border-radius: 10%;"></li>
+                    <li><img src="../../images/twitter.png" style="height: 25px; border-radius: 10%;"></li>
+                </ul>
+        	<br>
+            <p id="date"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Copyright section -->
+    <div class="copyright">
+        <p>Copyright &copy2021 Bonsai Nepal. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+	<script>
+			function cart(){
+			alert("Thank you for purchasing");}
+
+			function cart1(){
+			alert("Product is added to cart");}
+	</script>
+	
+</body>
+</html>

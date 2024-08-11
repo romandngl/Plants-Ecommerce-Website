@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paras Peepal Bonsai</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Team 4">
+	<meta name="description" content="HTML document">
+	<meta name="keywords" content="HTML">
+	<link rel="stylesheet" href="../../css/style2.css">
+	<style>
+		/* product page */
+	.deco{
+		background-image: url("../../images/ban.jpg");
+		width:87%;
+		height:150px;
+		text-align: center;
+		padding: 80px;
+	}
+	/*changing the font size of paragraph tag*/
+	.deco p{
+		font-size: 70px;
+	}
+	</style>
+</head>
+<body>
+	<section class="header">
+		<!-- navigation bar -->
+		<nav>
+			<a href="index.html"><img src="../../images/logoo.png" ></a>
+			<div>
+		    <form>
+                <input type="text" placeholder="Search...">
+                <button type="submit">Go</button>
+            </form>
+            </div>
+		<div class="nav">
+		 	<ul>
+			    <li><a href="../../index.html">Home</a></li>
+		        <li><a class="active" href="../products.html">Products</a></li>
+		        <li><a href="../blog.html">Blog</a></li>
+		        <li><a href="../research.html">Research</a></li>
+		        <li><a href="../aboutus.html">About us</a></li>
+		    </ul>
+	    </div>
+		</nav>
+	</section>
+
+	<!--header section starts here-->
+	<div class="deco">
+		<h1>#ShopBonsai </h1>
+		<p> Stay home and shop happily!</p>
+	</div>
+	<!--header ends here-->
+
+	<!-- images-->
+	<div class="Peepal" style="display: flex;padding:40px;">
+		<div class="image" style="flex:0%;margin:30px 0px;">
+			<img src="../../images/paras.png" width="500px" height="500px">
+		</div>
+
+		<!--details of the product-->
+		<div class="description" style="flex:40%;padding: 40px;padding-top: 100px;">
+			<h1 style="font-family: 'Comic Sans Ms';padding:;background-color:#;color: #;">Paras Peepal Bonsai</h1>
+			<p style="font-family: Comic Sans Ms;font-size: 20px; color:;padding-top: ; padding-bottom: 30px; padding-left: 20px;">$18.99</p>
+
+			<div style="padding:  8px 15px; display: ; flex: 400%;">
+				<button style= "font-size: 30px;background-color:#90bf2a;color: white;border:none; font-size: 25px; padding: 4px;" onclick="cart()">BUY NOW</button>
+				<button style="font-size: 30px;background-color:#90bf2a;color: white;border:none; font-size: 25px; padding: 4px;padding: 4px; margin-left: 30px;" onclick="cart1()">ADD TO CART</button>
+			</div><br>
+
+			<h1 style="font-family: serif;	padding:20px 20px 20px 20px;">Product Description:</h1>
+			<p style="font family:Verdana;font-size: 30px;	padding:10px 20px 20px 20px;background-color: skyblue;">It is one of the popular oudoor bonsai plant.Its height is 40 inches approx.It is one of the plant that is used for decoration in home. It is also one of the plants that is used to gift friends or family.</p>
+		</div>
+		<!--end of details of the product-->
+
+	</div>	
+
+
+	 <footer>
+    <div class="container">
+        <div class="row">
+
+        	<!-- Column for About Us -->
+            <div class="col-1">
+                <h3>About Us</h3>
+                <p>Our shop sells fresh bonsai plants. Decorate your house with fresh and beautiful bonsai plants.</p>
+            </div>
+
+            <!-- Column for contact informnation -->
+            <div class="col-1">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: buybonsainepal@gmail.com</li>
+                    <li>Phone: 555-555-5555</li>
+                    <li>Address: 123 Dillibazar, Kathmandu </li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><img src="../../images/fb.png" style="height: 25px; border-radius: 10%;"></li>
+                    <li><img src="../../images/insta.png" style="height: 25px; border-radius: 10%;"></li>
+                    <li><img src="../../images/twitter.png" style="height: 25px; border-radius: 10%;"></li>
+                </ul>
+        	<br>
+            <p id="date"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Copyright section -->
+    <div class="copyright">
+        <p>Copyright &copy2021 Bonsai Nepal. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+	<script>
+			function cart(){
+			alert("Thank you for purchasing");}
+
+			function cart1(){
+			alert("Product is added to cart");}
+	</script>
+</body>
+</html>

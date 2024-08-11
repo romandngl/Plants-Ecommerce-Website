@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*adding styling for header section*/
+.header{
+	min-height: 14vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(3,10,9,0.6),rgba(3,10,9,0.7)),url(../images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+/*Styling for navigation bar*/
+nav{
+	display: flex;
+    align-items: center;
+	padding: 12px 2px;
+	justify-content: space-between;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav a{
+	flex: 10;
+	text-align: right;
+	padding: ;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+div ul li{
+	display: inline-block;
+	padding-right: 20px;
+	margin: 15px ;
+
+}
+ 
+/* adding hover effect in nav bar*/
+nav a:hover,
+nav a.active {
+  color:rgb(222 235 36);
+  transition: .10s;
+  background: ;
+}
+
+nav img{
+	width: 70px;
+	height: 70px;
+    padding-left: 50px;
+}
+
+.nav a::after{
+	content: "";
+	width: 0%;
+	height: 2px;
+	background: rgb(255, 0, 0);
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.nav a:hover::after{
+	width: 100%;
+}
+/* about us section starts here*/
+.img{
+	background-image: url(../images/b1.jpg);/*to display background image of particular height and width*/
+	width:100%;
+	height: 650px;
+	background-size: cover;
+	background-position: center;
+	margin-top:px ;
+
+}
+.text {
+	text-align: center;/* to create text class section in center*/
+	padding: 150px;
+}
+.text h1{
+	font-size: 40px;
+	padding:50px;
+}
+.text p{
+	font-size: 20px;
+	font-family: "Arial";
+}
+.aboutus{
+	padding: 30px;
+	font-family: sans-serif;/*to style the about us section font*/
+}
+.row{
+	display: flex;
+}
+
+.col1{
+	border-radius: 20px;
+	padding:20px;
+	flex:40%
+}
+.col2{
+	padding: 40px 60px;
+	flex:60%
+}
+.col2 span{
+	color : #ff0000;
+}
+.col2 h1{
+	font-size: 50px;
+}
+.link{
+	display: flex;
+	padding:15px;
+}
+.topic{
+	flex: 50%;
+	padding:20px;
+	cursor:pointer;
+}
+.topic:hover{ /*when it is hover*/
+	background-color: #a2e244;
+}
+.topic:active{
+	color:#ff0000 ;
+}
+.contents span{
+	color: #ff0000;
+}
+.contents{
+	font-size: 20px;
+}
+/* to create padding between contents*/
+.contents ol li{
+	padding: 10px;
+}
+.contents{
+	display: none;
+}
+/*to display only particular contents*/
+.active{
+	display: block;
+}
+.active1{
+	display: block;
+}
+.active2{
+	display: block;
+}
+.active3{
+	display: block;
+}
+.division{
+	display: flex;
+	padding:20px;
+}
+/* to display map*/
+.map{
+	flex:40%;
+	padding: 10px 40px;
+}
+.feedback{
+	flex:70%;
+
+}
+.feedback h1{
+	text-align: center;
+}
+form{
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	color:#1f1f14;
+}
+input, textarea{
+	border: 3px solid #aaaa55;
+	border-radius: 5px;
+	
+}
+.form{
+	background-color: #ccccb3;
+}
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+} 
+
+th, td { 
+  border: 1px solid black; 
+  padding: 8px; 
+  text-align: center; 
+} 
+
+th { 
+  background-color: lightgray; 
+}
+
+/*Footer styles*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family:sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-1 {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.col-1 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.col-1 p, .col-1 li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+/*Styles for social-links*/
+.social-links li  {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+/*Adding hover effect in social-links*/
+.social-links li :hover {
+  transform: scale(1.2);
+}
+ 
+/*styles for copyright*/
+.copyright {
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+#date{
+	text-align: right;
+	font-size: 13px;
+}
